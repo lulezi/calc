@@ -33,6 +33,7 @@ var funcs = map[string]func(x float64) float64{
 	"CEIL":  math.Ceil,
 	"FLOOR": math.Floor,
 	"SIGN":  sign,
+	"ROUND": round,
 }
 
 var consts = map[string]float64{
